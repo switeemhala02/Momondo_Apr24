@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+.bg-nav{
+    background: #4f2f64;
+}
+.bg-pink{
+    background: #5e337b;
+}
+.bg-pink2{
+    background: #d22866 ;
+}
+.top-15{
+    top:15%;
+}
+/* header section start */
+.bg-deepblue{
+    background: #101B37;
+}
+nav select{
+    background: #101B37; 
+    color: #fff;
+    border: none;
+}
+.navbar .active{
+    color: #d1306b !important;
+}
+/* header section end */
+
+/* banner section start */
+.banner{
+    width: 100%;   
+    background: url(../img/banner.jpg);
+    background-size: 100% 100%;   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #d1306b ;
+    color: #fff;
+}
+.nav-pills .nav-link{
+    color: #fff;
+    background: #4f2f64;
+}
+/* bnner section end */
+
+/* fun section start */
+.fun{
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../img/fun.png);
+    background-size: cover;
+    background-position: center center;
+}
+/* fun section end */
+
+/* Newsletter section start */
+.newsletter{
+    color: #fff;
+    background: linear-gradient(rgba(128,0,128,0.5),rgba(128,0,128,0.5)), url(../img/plane3.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.newsletter .email{
+    color: #fff !important;
+    background:linear-gradient(rgba(213, 189, 213, 0.5),rgba(76, 45, 76, 0.5)), url(../img/plane3.png); 
+}
+/* Newsletter section end */
+
+/* destination section start */
+.dest{
+    background-color:#20162F ;   
+}
+.dest p span{
+    color: rgb(233, 120, 38);
+}
+/* destination section end */
+
+/* Estimate section start */
+.esti{
+    background-color: #6832a2;
+}
+.esti .dark{
+    color: #000 !important;
+}
+/* Estimate section end */
+
+/* footer section start */
+footer{
+    color: #929191;  
+    background: #1D1928
+}
+footer span{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+footer img{
+    display: inline;
+}
+/* footer section end */
+
+@media screen and(max-width: 575px) {    
+    .top-15{
+        top:10%;
+    }
+}
+
